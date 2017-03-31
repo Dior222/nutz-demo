@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : com.demo.nutz : webdemo-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/webdemo</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="webdemo-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="webdemo_main/web/Web Gradle : webdemo-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webdemo_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/webdemo/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.nutz:nutz:1.r.60" />
+          <element id="library" level="project" name="Gradle: com.alibaba:druid:1.0.29" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:6.0.5" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/webdemo/exploded/webdemo-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
